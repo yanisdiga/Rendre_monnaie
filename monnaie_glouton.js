@@ -3,7 +3,7 @@ const pieces = [100, 50, 20, 10, 5, 2, 1];
 const solution = [];
 const i=0;
 
-const rendu_glouton = function(aRendre, solution,i){
+const rendu_glouton = function(aRendre, solution, i){
     //On check si il ne reste plus rien a rendre
     if(aRendre == 0){
         return solution;
